@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="e2etest.spec"
+    errors="1" failures="0" hostname="" id="" package="e2etest.spec" skipped="0"
+    tests="1" time="5.911" timestamp="">
+  
+    <testcase name="check tittle" classname="e2etest.spec" time="5.911" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    <error message="An error occurred while running .click() command on &lt;Element [name=@setDate]&gt;:   (Session info: chrome=96.0.4664.45),  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.19043 x86_64); element click intercepted: Element is not clickable at point (631, 823)" type="error"><![CDATA[
+    Error
+    at Page.submitbttn (/mnt/c/users/josue/Desktop/todolist-frontend-vue2/e2e/page_object/todolistpageObject.js:52:18)
+    at DescribeInstance.&lt;anonymous&gt; (/mnt/c/users/josue/Desktop/todolist-frontend-vue2/e2e/tests/e2etest.spec.js:12:10)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;Element [name=@setDate]&gt;:   (Session info: chrome=96.0.4664.45),  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.19043 x86_64); element click intercepted: Element is not clickable at point (631, 823)
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element click intercepted: Element is not clickable at point (631, 823)&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=96.0.4664.45)&#34;,&#34;  (Driver info: chromedriver=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}),platform=Windows NT 10.0.19043 x86_64)&#34;]},&#34;errorStatus&#34;:64,&#34;error&#34;:&#34;An unknown error has occurred – element click intercepted: Element is not clickable at point (631, 823)&#34;,&#34;httpStatusCode&#34;:200}
+       at Page.submitbttn (/mnt/c/users/josue/Desktop/todolist-frontend-vue2/e2e/page_object/todolistpageObject.js:52:18)
+       at DescribeInstance.&lt;anonymous&gt; (/mnt/c/users/josue/Desktop/todolist-frontend-vue2/e2e/tests/e2etest.spec.js:12:10)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
